@@ -1,0 +1,8 @@
+table {
+	background-size: cover;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: rgba(0,0,0,0.70);
+	display: block;
+    margin: 0 auto;
+	margin-bottom: 10;
+}

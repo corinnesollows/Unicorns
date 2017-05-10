@@ -1,0 +1,42 @@
+table {
+	background-size: cover;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: rgba(0,0,0,0.70);
+	display: block;
+    margin: 0 auto;
+	margin-bottom: 10;
+}
+
+.write
+{
+	position:relative;
+	padding:6px 15px;
+	margin-left: 0px;
+	left: -3px;
+	border:2px solid #ffb7d5;
+	background-color: #ffb7d5;
+	color: #fafafa;
+	display: block;
+    margin: 0 auto;
+}
+
+.message_desc
+{
+	height: 100px;
+	width: 500px;
+	display: block;
+    margin: 0 auto;
+	color: rgba(0,0,0,0.70);
+}
+
+.delete
+{
+	position:relative;
+	padding:6px 15px;
+	margin-left: 0px;
+	left: -3px;
+	border:2px solid #ffb7d5;
+	background-color: #ffb7d5;
+	color: #fafafa;
+    margin: 10;
+}

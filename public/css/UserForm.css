@@ -1,0 +1,118 @@
+/* CSS Document */
+
+body {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+label {
+    color: hsla(0, 0%, 50%, 1.00);
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#userForm {
+    width: 100%;
+    margin: 0% auto;
+}
+
+#headerTitle {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+h1 {
+    float: left;
+    font-size: 18px;
+    width: 50%;
+    margin: 0%;
+    text-align: center;
+    font-weight: bold;
+    color: hsla(0, 0%, 50%, 1.00);
+}
+
+#note {
+    float: left;
+    text-align: center;
+    color: #ffb7d5;
+    width: 50%;
+    margin: 0%;
+    padding-top: 3px;
+}
+
+#personal {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#credit {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    float: left;
+    margin: 1% 30%;
+    width: 30%;
+    font-size: 14px;
+    color: hsla(0, 0%, 50%, 1.00);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 40px;
+}
+
+#userForm label {
+    box-sizing: border-box;
+    float: left;
+    width: 35%;
+    margin: 8px 0px;
+    padding: 1px 8px;
+    text-align: right;
+}
+
+#userForm input:not([type=submit]),
+select {
+    box-sizing: border-box;
+    float: left;
+    margin: 8px 0px;
+    padding: 0px 8px;
+    width: 30%;
+}
+
+#userForm span {
+    box-sizing: border-box;
+    float: left;
+    color: #ffb7d5;
+    width: 35%;
+    margin: 8px 0px;
+    padding: 1px 8px;
+    text-align: left;
+}
+
+#submit {
+    float: left;
+    height: 3%;
+    width: 5%;
+    border: 2px solid #ffb7d5;
+    background-color: #ffb7d5;
+    color: #fafafa;
+}
+
+.previousorder,
+.update {
+    position: relative;
+    padding: 6px 15px;
+    margin-left: 0px;
+    left: -3px;
+    border: 2px solid #ffb7d5;
+    background-color: #ffb7d5;
+    color: #fafafa;
+}

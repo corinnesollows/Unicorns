@@ -1,0 +1,182 @@
+body {
+	background-image: url("wallpaper.jpg");
+	background-size: 100%;
+	color: black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	width: 100%;	
+}
+
+#logo {
+	float: left;
+	height: 8%;
+	width: auto;
+	margin: 2% 0%;
+}
+
+hr {
+	border: 0;
+    height: 0;
+	width: 80%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#upperRight {
+	float: left;
+	height: 10%;
+	width: 50%;
+}
+
+#logOut {
+	float: right;
+	margin: 1%;
+}
+
+/* Search Bar */
+#searchBar {
+	float: right;
+	clear: right;
+}
+
+#searchName {
+	padding:7px 15px;
+	border: 1px solid #dbdbdb;
+	margin-right: 0px;
+}
+
+#search{
+	position:relative;
+	padding:6px 15px;
+	margin-left: 0px;
+	left: -3px;
+	border:2px solid #ffb7d5;
+	background-color: #ffb7d5;
+	color: #fafafa;	
+}
+
+/* Navigation bar */
+#navigation {
+	width: 100%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	z-index: 2;
+}
+
+#navigation ul {
+	height: 50px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 45px;
+}
+
+#navigation ul li {
+	height: auto;
+	width: 10%;
+	display: inline-block;
+	text-align: center;
+}
+
+#navigation > ul li a {
+	padding: 18px 0;
+}
+
+a {
+	color: hsla(0,0%,70%,1.00);
+	text-decoration: none;
+
+}
+
+/* CSS animation */
+/* help tip css code reference:
+Angelov, M. (n.d.). Create inline help tips for your site with a bit of CSS. Retrieved November 24, 2015, from http://tutorialzine.com/2014/07/css-inline-help-tips/
+*/
+
+.help-tip{
+	position: absolute;
+	top: 18px;
+	right: 18px;
+	text-align: center;
+	background-color: #BCDBEA;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	font-size: 14px;
+	line-height: 26px;
+	cursor: default;
+}
+
+.help-tip:before{
+	content:'?';
+	font-weight: bold;
+	color:#fff;
+}
+
+.help-tip:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.help-tip p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #1E2021;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	right: -4px;
+	color: #FFF;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.help-tip p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#1E2021;
+	right:10px;
+	top:-12px;
+}
+
+.help-tip p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+@-webkit-keyframes fadeIn {
+	0% { 
+		opacity:0; 
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity:100%;
+		transform: scale(1);
+	}
+}
+
+@keyframes fadeIn {
+	0% { opacity:0; }
+	100% { opacity:100%; }
+}

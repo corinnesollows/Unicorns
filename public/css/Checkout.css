@@ -1,0 +1,79 @@
+body {
+    color: hsla(0, 0%, 50%, 1.00);
+}
+
+h1 {
+    color: hsla(0, 0%, 50%, 1.00);
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: hsla(0, 0%, 50%, 1.00);
+    font-size: 18px;
+}
+
+td, th {
+    color: hsla(0, 0%, 50%, 1.00);    
+}
+
+.mainButton {
+    float: left;
+    border: 2px solid #ffb7d5;
+    background-color: #ffb7d5;
+    color: #fafafa;
+    margin: 2%;
+}
+
+#main {
+    text-align: center;
+    width: 100%;
+    margin: 3%;
+}
+
+#orders {
+    float: left;    
+    box-sizing: border-box;
+    margin: 0 auto 3% auto;    
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 80%;
+    width: 100%;
+    min-width: 350px;
+}
+
+#left {
+    margin: 1% 0% 1% 10%;
+}
+
+#right {
+    margin: 1% 10% 1% 0%;
+}
+
+#left, #right {
+    box-sizing: border-box;
+    padding: 3% 3%;
+    float: left;
+    width: 40%;
+    text-align: center;
+    display: inline;
+}
+
+.info {
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 auto 3% auto;
+    width: 100%;
+    min-width: 350;
+}
+
+table {
+    border: none;
+}
+
+.formButton
+{
+	clear: right;
+	float: left;
+	margin-left: 20;
+}

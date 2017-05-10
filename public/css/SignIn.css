@@ -1,0 +1,74 @@
+/* CSS Document */
+
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: rgba(0,0,0,0.70);
+}
+
+#main {
+	width: 100%;
+	display:inline-block;	
+}
+
+#signUpBox {
+	margin: auto;
+	float: right;
+	color: white;
+}
+
+#signUp {
+	color: white;	
+	float: right;
+	background: rgba(0,0,0,0.00);
+	border: 1px solid white;
+	border-radius: 4px;
+}
+
+#loginBox {
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.51);
+	border-radius: 10px;
+	top: 0; left: 0; bottom: 0; right: 0;
+	position: absolute;
+	max-width: 400px;
+	height: 260px;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;	
+	margin-bottom: 1%;
+}
+
+h2 {
+	text-align: center;
+	font-size: 16px;
+	margin: 0% 5% 5% 5%;	
+}
+
+label {
+	box-sizing: border-box;	
+	float: left;
+	width: 100%;
+	margin-left: 20%;
+}
+
+input:not([type=submit]) {
+	box-sizing: border-box;	
+	float: left;
+	width: 60%;
+	margin: 2% 20%;
+	clear: both;
+}
+
+#login {
+	color: rgba(0,0,0,0.70);
+	float: right;
+	margin-right: 20%;
+	background: rgba(0,0,0,0.00);
+	border: 1px solid rgba(0,0,0,0.70);
+	border-radius: 4px;
+	font-weight: bold;
+}
